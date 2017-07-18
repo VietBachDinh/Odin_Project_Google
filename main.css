@@ -1,0 +1,156 @@
+*{
+  font-family: Arial, sans-serif;
+}
+.top_bar ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.top_bar li {
+  float:right;
+}
+.top_bar li a{
+  display:block;
+  color:Black;
+  text-align:center;
+  margin:20px 10px;
+  text-decoration:none;
+}
+#img, #mail{
+  margin: 27px 10px;
+}
+#img:hover,#mail:hover{
+  text-decoration: underline;
+}
+.top_bar{
+  opacity:.6;
+  font-size:13px;
+}
+#avatar,#bell,#grid{
+  color:black;
+}
+#avatar:hover{
+  color:black;
+}
+#bell:hover{
+  opacity:.9;
+}
+#grid:hover{
+  opacity:.90;
+}
+
+.gog{
+  position:relative;
+  bottom:-100px;
+  background-size: 272px 92px;
+  height: 92px;
+  width:272px;
+  margin:auto;
+  display:block;
+  background-image: url(https://www.google.pl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+  background-repeat:no-repeat;
+}
+
+.country{
+  position:absolute;
+  bottom:12px;
+  right:8px;
+  height:22px;
+  width:100px;
+  margin:0 0;
+  Font-size:16px;
+  color:#4285f4;
+  text-align: right;
+}
+
+input{
+  box-sizing: border-box;
+  position:absolute;
+  margin:auto;
+  bottom: -70px;
+  padding:0;
+  border:0;
+  left:-165px;
+  height:40px;
+  width:600px;
+  box-shadow: 4px 6px 15px -1px rgba(0,0,0,0.38);
+}
+.gog ul{
+  position:absolute;
+  bottom:-134px;
+  left:-100px;
+  width:600px;
+  height:40px;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  font-size:13px;
+}
+.gog li{
+  position:relative;
+  top:0;
+  color:dimgrey;
+  font-weight: bold;
+  display:inline-block;
+  background-color: #f2f2f2;
+  text-align: center;
+  box-sizing: content-box;
+  height: 30px;
+  line-height: 30px;
+  width:200px;
+  text-decoration: none;
+  margin:0 10px;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+.gog li:hover{
+  border:1px solid Dimgrey;
+  color:black;
+}
+.gog .lang{
+  position: absolute;
+  bottom:-200px;
+  color:black;
+  text-align: center;
+  left:30px;
+}
+
+
+
+.bot ul {
+    position:absolute;
+    bottom:0;
+    height:40px;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #f2f2f2;
+    font-size:13px;
+}
+
+.bot li {
+    float: left;
+}
+
+.bot li a {
+    display: inline-block;
+    color: dimgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align:middle;
+}
+
+.bot_r li{
+  float:right;
+}
+.bot a{
+  text-decoration:none;
+  color:dimgrey;
+}
+.bot li a:hover{
+  text-decoration:underline;
+}
